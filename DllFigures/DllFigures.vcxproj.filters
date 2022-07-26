@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleWrapper.cpp" />
+    <ClCompile Include="TriangleWrapper.cpp" />
+    <ClCompile Include="Point.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerWrapper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{b7c21f65-af56-4ead-8ad1-158364a50a0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
